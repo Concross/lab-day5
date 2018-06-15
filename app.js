@@ -141,6 +141,7 @@ function multiplyAnyArray(dynamicArray) { //eslint-disable-line
   var totalProduct = 1;
   var productMessage = 'The numbers ';
 
+  //Loop through array, append numbers to message string and multiply
   for (var i = 0; i < dynamicArray.length - 1; i++){
     if (i < dynamicArray.length - 1){
       productMessage += dynamicArray[i] + ',';
